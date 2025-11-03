@@ -2,9 +2,9 @@ package encaps_abs;
 
 public abstract class Diagrama
 {
-	private String nome;
-	private double custo;
-	private String[] composicao;
+	protected String nome;
+	protected double custo;
+	protected String[] composicao;
 	
 	public Diagrama(String nome, double custo, String composicao[])
 	{
